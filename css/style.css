@@ -27,7 +27,6 @@ img{
 img:hover{
     transform: scaleX(-1);
     filter: invert();
-    filter:contrast(200%)
 }
 
 div.ugly-catman{
