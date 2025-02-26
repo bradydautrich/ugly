@@ -1,14 +1,35 @@
 body{
-    background-color: springgreen;
-    color: blue;
+    background-color: rgb(140, 150, 0);
+    color:deeppink;
+    font-family: "Comic Neue", serif;
 }
 
 h1{
-    color: violet;
-    background-color: aliceblue;
-    text-align: center;
+    font-family: "Blaka Ink", serif;
+    font-size: 90px;
 }
 
 h2{
     color: tomato;
+    font-family: "Ruge Boogie", serif;
+    font-size: 90px;
+    text-align: center;
+}
+
+img{
+    border: 8px, solid;
+    border-color: tomato;
+    border-radius: 50%;
+    width: 50%;
+    text-align: center;
+}
+
+img:hover{
+    transform: scaleX(-1);
+    filter: invert();
+    filter:contrast(200%)
+}
+
+div.ugly-catman{
+    text-align: center;
 }
